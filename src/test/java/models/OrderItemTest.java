@@ -13,4 +13,9 @@ public class OrderItemTest {
     public void testOrderItemQuantityShouldBeMoreThanZero() {
         new OrderItem(new Product("Product A", new BigDecimal(10)), 0);
     }
+
+
+
+
+
 }

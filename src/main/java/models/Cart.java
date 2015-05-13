@@ -11,6 +11,14 @@ public class Cart {
 
     List<OrderItem> orderItemList;
 
+
+    public Cart() {
+    }
+
+//    public Cart(Customer customer) {
+//        this.customer = customer;
+//    }
+
     public void addOrderItem(OrderItem orderItem) {
         if (orderItemList == null) {
             orderItemList = new ArrayList<>();
@@ -33,4 +41,6 @@ public class Cart {
         }
         return totalPrice;
     }
+
+
 }
